@@ -5,6 +5,18 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStoreAPI", "OnlineMovieStoreAPI\OnlineMovieStoreAPI.csproj", "{64C3EFC1-B988-4E26-8FD9-E68269D527EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Entities", "OnlineMovieStore.Entities\OnlineMovieStore.Entities.csproj", "{0C290C93-AD60-4C79-B16A-684B812DFB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Data", "OnlineMovieStore.Data\OnlineMovieStore.Data.csproj", "{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Repositories", "OnlineMovieStore.Repositories\OnlineMovieStore.Repositories.csproj", "{035088ED-54A3-4AE2-81D9-33D2B70741E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Repository.Interfaces", "OnlineMovieStore.Repository.Interfaces\OnlineMovieStore.Repository.Interfaces.csproj", "{F351864E-7747-460B-9260-46939BF6B00D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Services", "OnlineMovieStore.Services\OnlineMovieStore.Services.csproj", "{D51A5EB1-9307-4A40-BC16-8DE163163F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Service.Interfaces", "OnlineMovieStore.Service.Interfaces\OnlineMovieStore.Service.Interfaces.csproj", "{35EE5E5F-CAF3-401F-A360-EA135118F8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{64C3EFC1-B988-4E26-8FD9-E68269D527EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C3EFC1-B988-4E26-8FD9-E68269D527EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C3EFC1-B988-4E26-8FD9-E68269D527EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035088ED-54A3-4AE2-81D9-33D2B70741E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035088ED-54A3-4AE2-81D9-33D2B70741E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035088ED-54A3-4AE2-81D9-33D2B70741E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035088ED-54A3-4AE2-81D9-33D2B70741E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F351864E-7747-460B-9260-46939BF6B00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F351864E-7747-460B-9260-46939BF6B00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F351864E-7747-460B-9260-46939BF6B00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F351864E-7747-460B-9260-46939BF6B00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51A5EB1-9307-4A40-BC16-8DE163163F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51A5EB1-9307-4A40-BC16-8DE163163F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51A5EB1-9307-4A40-BC16-8DE163163F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51A5EB1-9307-4A40-BC16-8DE163163F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
