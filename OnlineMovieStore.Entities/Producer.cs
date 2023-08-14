@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Entities
 {
-    public class Director
+    public class Producer
     {
         [Key]
         public int Id { get; set; }
