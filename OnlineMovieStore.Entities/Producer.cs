@@ -7,12 +7,20 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Entities
 {
-    public class Category
+    public class Producer
     {
         [Key]
         public int Id { get; set; }
-        [StringLength(25)]
-        public string Name { get; set; } = null!;
 
+        [StringLength(100)]
+
+        public string Name { get; set; } = null!;
+        [StringLength(2000)]
+        public string? Biography { get; set; }
+        [StringLength(1000)]
+        public string? MovieAwards { get; set; }
+        public string Country { get; set; } = null!;
+
+        public bool IsPopular { get; set; }
     }
 }

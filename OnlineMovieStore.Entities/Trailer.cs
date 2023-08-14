@@ -7,23 +7,16 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Entities
 {
-    public class ShopCart
+    public class Trailer
     {
         [Key]
         public int Id { get; set; }
-
-        public double Price { get; set; }
+        [StringLength(2000)]
+        public string MovieUrl { get; set; } = null!;
+        [StringLength(500)]
+        public string? Description { get; set; }
 
         public DateTime DateAdded { get; set; }
-
-       
-        [StringLength(100)]
-        public string UserId { get; set; } = null!;
-
-        public int MovieId { get; set; }
-
-        public string? PromoCode { get; set; }
-
-        public bool IfPromoCode { get; set; } 
+        public bool isTrailer { get; set; }
     }
 }
