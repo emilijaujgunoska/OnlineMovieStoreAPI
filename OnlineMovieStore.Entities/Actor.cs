@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace OnlineMovieStore.Entities
 {
     public class Actor
-    {
+    {  
         [Key]
         public int Id { get; set; }
 
@@ -28,6 +28,7 @@ namespace OnlineMovieStore.Entities
 
         // TO DO: Relation with other table/s
 
-       // PRIMER KAKO public virtual ICollection<Book>? Books { get; set; }
+        // PRIMER KAKO public virtual ICollection<Book>? Books { get; set; }
     }
 }
+    

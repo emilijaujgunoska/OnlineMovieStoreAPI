@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Service.Interfaces
 {
-    public class IUserService
+    public interface IProducerService
     {
     }
 }

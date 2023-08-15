@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Service.Interfaces
 {
-    internal interface IMovieService
+    public interface IMovieService
     {
     }
 }

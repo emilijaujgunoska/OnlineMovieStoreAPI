@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineMovieStore.Service.Interfaces
+namespace OnlineMovieStore.Repository.Interfaces
 {
-    public class IUserService
+    internal class IVideoRepository
     {
     }
 }
