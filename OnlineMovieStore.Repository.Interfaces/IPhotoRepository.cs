@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Repository.Interfaces
 {
-    internal interface IPhotoRepository
+    public interface IPhotoRepository
     {
     }
 }

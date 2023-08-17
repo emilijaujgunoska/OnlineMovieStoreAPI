@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using OnlineMovieStore.Entities;
-using OnlineMovieStore.Entities.Config;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,6 +10,4 @@ using System.Threading.Tasks;
 public class OnlineMovieStoreDbContext : DbContext
 {
 
-} 
-    
-
+}
