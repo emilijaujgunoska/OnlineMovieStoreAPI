@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Repositories
 {
-    internal class ActorRepository
+    public class ActorRepository
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Repositories
 {
-    internal class ShopCartRepository
+    public class ShopCartRepository
     {
     }
 }

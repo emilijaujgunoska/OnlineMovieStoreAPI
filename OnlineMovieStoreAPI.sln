@@ -3,19 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStoreAPI", "OnlineMovieStoreAPI\OnlineMovieStoreAPI.csproj", "{64C3EFC1-B988-4E26-8FD9-E68269D527EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStoreAPI", "OnlineMovieStoreAPI\OnlineMovieStoreAPI.csproj", "{64C3EFC1-B988-4E26-8FD9-E68269D527EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{035088ED-54A3-4AE2-81D9-33D2B70741E3} = {035088ED-54A3-4AE2-81D9-33D2B70741E3}
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD} = {35EE5E5F-CAF3-401F-A360-EA135118F8CD}
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D} = {BD30B380-BF48-42C3-8DAF-0F0DCC17322D}
+		{D51A5EB1-9307-4A40-BC16-8DE163163F3A} = {D51A5EB1-9307-4A40-BC16-8DE163163F3A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Entities", "OnlineMovieStore.Entities\OnlineMovieStore.Entities.csproj", "{0C290C93-AD60-4C79-B16A-684B812DFB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Entities", "OnlineMovieStore.Entities\OnlineMovieStore.Entities.csproj", "{0C290C93-AD60-4C79-B16A-684B812DFB8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Data", "OnlineMovieStore.Data\OnlineMovieStore.Data.csproj", "{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Data", "OnlineMovieStore.Data\OnlineMovieStore.Data.csproj", "{BD30B380-BF48-42C3-8DAF-0F0DCC17322D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Repositories", "OnlineMovieStore.Repositories\OnlineMovieStore.Repositories.csproj", "{035088ED-54A3-4AE2-81D9-33D2B70741E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Repositories", "OnlineMovieStore.Repositories\OnlineMovieStore.Repositories.csproj", "{035088ED-54A3-4AE2-81D9-33D2B70741E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+		{BD30B380-BF48-42C3-8DAF-0F0DCC17322D} = {BD30B380-BF48-42C3-8DAF-0F0DCC17322D}
+		{F351864E-7747-460B-9260-46939BF6B00D} = {F351864E-7747-460B-9260-46939BF6B00D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Repository.Interfaces", "OnlineMovieStore.Repository.Interfaces\OnlineMovieStore.Repository.Interfaces.csproj", "{F351864E-7747-460B-9260-46939BF6B00D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Repository.Interfaces", "OnlineMovieStore.Repository.Interfaces\OnlineMovieStore.Repository.Interfaces.csproj", "{F351864E-7747-460B-9260-46939BF6B00D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Services", "OnlineMovieStore.Services\OnlineMovieStore.Services.csproj", "{D51A5EB1-9307-4A40-BC16-8DE163163F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Services", "OnlineMovieStore.Services\OnlineMovieStore.Services.csproj", "{D51A5EB1-9307-4A40-BC16-8DE163163F3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+		{35EE5E5F-CAF3-401F-A360-EA135118F8CD} = {35EE5E5F-CAF3-401F-A360-EA135118F8CD}
+		{F351864E-7747-460B-9260-46939BF6B00D} = {F351864E-7747-460B-9260-46939BF6B00D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMovieStore.Service.Interfaces", "OnlineMovieStore.Service.Interfaces\OnlineMovieStore.Service.Interfaces.csproj", "{35EE5E5F-CAF3-401F-A360-EA135118F8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMovieStore.Service.Interfaces", "OnlineMovieStore.Service.Interfaces\OnlineMovieStore.Service.Interfaces.csproj", "{35EE5E5F-CAF3-401F-A360-EA135118F8CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C290C93-AD60-4C79-B16A-684B812DFB8B} = {0C290C93-AD60-4C79-B16A-684B812DFB8B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
