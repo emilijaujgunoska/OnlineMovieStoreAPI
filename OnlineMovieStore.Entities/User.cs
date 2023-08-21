@@ -22,6 +22,8 @@ namespace OnlineMovieStore.Entities
         [StringLength(100)]
         public string City { get; set; } = null!;
 
+        public string Description { get; set; } = null!;
+
         public byte[] PasswordHash { get; set; } = null!;
 
         public byte[] PasswordSalt { get; set; } = null!;
