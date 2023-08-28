@@ -68,11 +68,13 @@ namespace OnlineMovieStore.Entities
 
         public DateTime YearOfRelease { get; set; }
 
-        public string MovieDuration { get; set; }
+        public string? MovieDuration { get; set; }
         [StringLength(80)]
         public string? Genre { get; set; }
 
         public double Price { get; set; }
+
+        public string? Currency { get;set; }
         [StringLength(1000)]
         public string? Description { get; set; }
 
@@ -86,7 +88,7 @@ namespace OnlineMovieStore.Entities
         public string? PhotoUrl { get; set; }
 
         public string? VideoUrl { get; set; }
-        public double VideoResolution { get; set; }
+        public string? VideoResolution { get; set; }
 
         public string? TrailerUrl { get; set; }
 
