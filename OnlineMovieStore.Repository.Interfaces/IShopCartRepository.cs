@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineMovieStore.Repository.Interfaces
 {
-    public class IShopCartRepository
+    public interface IShopCartRepository
     {
     }
 }
